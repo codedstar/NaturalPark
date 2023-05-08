@@ -7,10 +7,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : abdulmac
 */
 
+.inner-body{
+    margin: 2em;
+}
+
 .image{
     height: 350px;
     margin: 0 40px;
-    background: url(../../assets/images/national-parks.jpg) left top no-repeat;
+    background: url(../../assets/images/national-parks.jpg) left top repeat;
     box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
     align-items: center;
    width: 100%;
@@ -102,8 +106,8 @@ table {
 
 .image{
     height: 350px;
-    margin: 0 40px;
-    background: url(../../assets/images/national-parks.jpg) left top no-repeat;
+    margin: 0 ;
+    background: url(../../assets/images/national-parks.jpg) left top;
     box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
     /*width: 300px;*/
     /*height: 300px;*/
@@ -124,7 +128,7 @@ table {
 
 .content{
     float: right;
-    width: 80%;
+    width: 75%;
 }
 
 .nav button{
@@ -177,4 +181,60 @@ table {
 .nav button:hover{
     background-color:#147500;
     color: aliceblue;
+}
+
+
+/*.nav a{
+    text-transform: capitalize;
+    display: block;
+    margin: 0.7em;
+    padding: 10px 0;
+    width: 160px;
+    background-color:azure;
+    color: rgb(17, 17, 1);
+    border-radius: 10px;
+    border-color: #473400;
+     box-shadow: 0px 8px 15px rgba(0, 0, 0, 5); 
+    cursor: pointer;
+}
+
+.nav a.active{
+    background-color: azure;
+}
+
+.nav a:hover{
+    background-color:#147500;
+    color: aliceblue;
+}*/
+.button{
+    float: left;
+}
+.button a {
+  background-color: Crimson; 
+  border-radius: 5px;
+  color: white;
+  padding: .5em;
+  text-decoration: none;
+  text-transform: capitalize;
+    display: block;
+    margin: 0.7em;
+    padding: 10px 0;
+    width: 160px;
+    background-color:azure;
+    color: rgb(17, 17, 1);
+    border-radius: 10px;
+    border-color: #473400;
+     box-shadow: 0px 8px 15px rgba(0, 0, 0, 5); 
+    /*cursor: pointer;*/
+        text-align: center;
+}
+
+.button a:focus,
+.button a:hover {
+  background-color:#147500;
+    color: aliceblue;
+}
+
+.button a.active{
+    background-color: #a7cdb5;
 }
