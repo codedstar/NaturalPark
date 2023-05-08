@@ -42,7 +42,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     width: 160px;
     background-color:turquoise;
     border-radius: 10px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 5);
+    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 5); */
     cursor: pointer;
 }
 
@@ -64,4 +64,36 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.center{
+    text-align: center;
+    color: #4d3e00;
+}
+
+.title{
+    color: #157701;
+}
+
+.nav button{
+    text-transform: capitalize;
+    display: block;
+    margin: 0.7em;
+    padding: 10px 0;
+    width: 160px;
+    background-color:azure;
+    color: rgb(17, 17, 1);
+    border-radius: 10px;
+    border-color: #473400;
+    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 5); */
+    cursor: pointer;
+}
+
+.nav button.active{
+    background-color: azure;
+}
+
+.nav button:hover{
+    background-color:#147500;
+    color: aliceblue;
 }
