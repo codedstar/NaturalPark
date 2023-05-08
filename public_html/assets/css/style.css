@@ -238,3 +238,10 @@ table {
 .button a.active{
     background-color: #a7cdb5;
 }
+
+.flexi{
+    display:inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+}
