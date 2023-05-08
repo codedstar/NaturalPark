@@ -64,14 +64,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     background-color: buttonface;
 }
 #text1{
-    color: rgb(23, 184, 58);
+    /*color: rgb(23, 184, 58);*/
     font-weight: bold;
+    color: #157701;
 }
 .booking{
     border-color: black;
 }
 .reservation p{
-    color: burlywood;
+    /*color: burlywood;*/
+    color: #157701;
     font-weight: bolder;
 }
 table {
