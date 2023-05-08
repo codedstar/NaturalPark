@@ -12,7 +12,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     margin: 0 40px;
     background: url(../../assets/images/national-parks.jpg) left top no-repeat;
     box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
-    /*width: 300px;*/
+    align-items: center;
+   width: 100%;
     /*height: 300px;*/
 }
 
@@ -22,7 +23,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 }
 
 .title{
-    color: #6363ce;
+    color:violet;
 }
 
 .nav{
@@ -32,6 +33,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 .content{
     float: right;
     width: 80%;
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+    margin-bottom: 1.7em;
 }
 
 .nav button{
@@ -42,7 +48,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     width: 160px;
     background-color:turquoise;
     border-radius: 10px;
-    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 5); */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 5);
     cursor: pointer;
 }
 
@@ -53,47 +59,41 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 .nav button:hover{
     background-color: buttonface;
 }
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
-  padding: 20px;
+#text1{
+    color: rgb(23, 184, 58);
+    font-weight: bold;
 }
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.booking{
+    border-color: black;
 }
-
-.center{
+.reservation p{
+    color: burlywood;
+    font-weight: bolder;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .eduinfo , .guide{
+    color: green;
+    font-weight: bolder;
     text-align: center;
-    color: #4d3e00;
-}
-
-.title{
-    color: #157701;
-}
-
-.nav button{
-    text-transform: capitalize;
-    display: block;
-    margin: 0.7em;
-    padding: 10px 0;
-    width: 160px;
-    background-color:azure;
-    color: rgb(17, 17, 1);
-    border-radius: 10px;
-    border-color: #473400;
-    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 5); */
-    cursor: pointer;
-}
-
-.nav button.active{
-    background-color: azure;
-}
-
-.nav button:hover{
-    background-color:#147500;
-    color: aliceblue;
-}
+  }
+ #photos img{
+    width: 250px;
+    height: 250px;
+ }
+ .inner-cont{
+    width: 80%;
+ }
