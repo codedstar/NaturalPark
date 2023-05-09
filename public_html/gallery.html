@@ -11,6 +11,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+      <link href='assets/css/simple-lightbox.min.css' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -35,16 +36,26 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             <div class="reservation">
                 <p> Photo Gallery</p>
             </div>
-            <div id="photos">
-                <img src="assets/images/park1.jpg">
-                <img src="assets/images/park2.jpg">
-                <img src="assets/images/park3.jpg">
-                <img src="assets/images/park4.jpg">
-                <img src="assets/images/park2.jpg">
-                <img src="assets/images/park2.jpg">
+            <div id="photos" class="gallery">
+                <a href="assets/images/park1.jpg" class="big"> <img src="assets/images/park1.jpg" alt=""> </a>
+                <a href="assets/images/park2.jpg" class="big"><img src="assets/images/park2.jpg" alt=""></a>
+                <a href="assets/images/park3.jpg" class="big"> <img src="assets/images/park3.jpg" alt=""></a>
+                <a href="assets/images/park4.jpg" class="big"> <img src="assets/images/park4.jpg" alt=""></a>
+                <a href="assets/images/park2.jpg" class="big"> <img src="assets/images/park2.jpg" alt=""></a>
+                <a href="assets/images/park2.jpg" class="big"><img src="assets/images/park2.jpg" alt=""></a>
             </div>
         </article>
     </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="assets/js/simple-lightbox.jquery.min.js"></script>
+        <script>
+          $(function(){
+            var gallery = $('.gallery a').simpleLightbox({navText:    ['&lsaquo;','&rsaquo;']});
+          });
+        </script>
+        
+    
 </body>
 
 </html>
